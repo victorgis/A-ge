@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+div.container-fluid{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    width: 100%;
+}
+nav.navbar{
+    width: 100%;
+}
+nav.navbar div.collapse ul li a{
+    padding-right: 10px !important;
+}
+div.background-img{
+    background-image: url("img/background.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
